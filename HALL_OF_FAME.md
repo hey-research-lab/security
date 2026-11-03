@@ -1,8 +1,15 @@
 # Hall of fame
 
-Teams that fixed what we reported and said so in public. Listed by how quickly they shipped a fix after our report, then
-by name. Being listed here says the team handled a report well. It is not an audit and not a statement that the code
-is safe.
+Teams that fixed what we reported and said so in public. Listed by how quickly they shipped a fix after our report,
+then by name. Being listed here says the team handled a report well. It is not an audit and not a statement that the
+code is safe.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
+  <img alt="Hall of fame: Agraris fixed within the hour; predict FWA the same day, before round 1; LoomDesk the same day; Priors published 0 to 3 days after the report; Gloam the last within hours" src="assets/hall-light.svg" width="100%">
+</picture>
+
+## The credits, with links
 
 | Team | What we reported | Time to fix | Credit |
 |---|---|---|---|
@@ -14,7 +21,12 @@ is safe.
 
 ## The numbers so far
 
-- 24 private security advisories filed on GitHub, across 8 projects. 12 accepted or published.
-- 289 pull requests to other teams' code, 47 merged.
+<!-- NUMBERS:START -->
+- 24 private security advisories filed on GitHub, across 8 projects. 15 accepted or published by their teams.
+- 289 pull requests to 231 other teams' repositories, 51 merged.
+- 5 teams in the hall of fame.
 
-Updated 3 November 2026. Your team can be next: see the [disclosure policy](README.md).
+Advisories counted by hand, last on 3 November 2026. Pull requests read from GitHub search every day.
+<!-- NUMBERS:END -->
+
+Your team can be next: see the [disclosure policy](README.md).

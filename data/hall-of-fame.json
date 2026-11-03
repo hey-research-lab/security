@@ -1,0 +1,45 @@
+{
+  "about": "The teams in HALL_OF_FAME.md, in its order: by how quickly they shipped a fix after our report, then by name. The short lines the hall of fame picture draws; HALL_OF_FAME.md keeps the links.",
+  "teams": [
+    {
+      "team": "Agraris",
+      "product": null,
+      "reported": "Public listings could set their own GitHub stars, activity and dates, and links accepted any URL scheme",
+      "severity": "Low",
+      "timeToFix": "Within the hour",
+      "when": "2 Nov 2026"
+    },
+    {
+      "team": "predict FWA",
+      "product": "Sherwood arena",
+      "reported": "Two game-logic issues, found before launch",
+      "severity": "Low",
+      "timeToFix": "Same day, before round 1",
+      "when": "2 Nov 2026"
+    },
+    {
+      "team": "LoomDesk",
+      "product": "loomdesk-sdk",
+      "reported": "Four gaps in the SDK's send gate",
+      "severity": "Low",
+      "timeToFix": "Same day",
+      "when": "2 Nov 2026"
+    },
+    {
+      "team": "Priors",
+      "product": null,
+      "reported": "Seven reports: StockVault, borrowing, the score, and the AgentKit and elizaOS integrations",
+      "severity": "Low to Medium",
+      "timeToFix": "Published 0 to 3 days after the report",
+      "when": "20 Oct to 3 Nov 2026"
+    },
+    {
+      "team": "Gloam",
+      "product": null,
+      "reported": "Eight items across the vault contracts, relay, SDK, MCP server and app",
+      "severity": "Low to Medium",
+      "timeToFix": "The last within hours",
+      "when": "23 Oct to 1 Nov 2026"
+    }
+  ]
+}
