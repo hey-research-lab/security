@@ -42,11 +42,11 @@
 <text x="40" y="425" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">04</text>
 <text x="92" y="426" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Priors</text>
 
-<text x="340" y="425" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Seven reports: StockVault, borrowing, the score, and the</text><text x="340" y="446" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">AgentKit and elizaOS integrations</text>
+<text x="340" y="425" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Eight reports: StockVault, borrowing, the score, the</text><text x="340" y="446" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">AgentKit and elizaOS integrations, and the Rialto stock</text>
 <text x="800" y="436" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low to Medium</text>
 <circle class="p" style="animation-delay:-2.1s" cx="916" cy="420" r="4" fill="#4F7A00"/>
 <text x="930" y="425" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">Published 0 to 3 days</text><text x="930" y="444" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">after the report</text>
-<text x="930" y="463" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">20 Oct to 3 Nov 2026</text>
+<text x="930" y="463" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">20 Oct to 4 Nov 2026</text>
 </g>
 <g>
 <rect x="24" y="480" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>

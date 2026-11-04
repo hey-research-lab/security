@@ -28,10 +28,10 @@
     {
       "team": "Priors",
       "product": null,
-      "reported": "Seven reports: StockVault, borrowing, the score, and the AgentKit and elizaOS integrations",
+      "reported": "Eight reports: StockVault, borrowing, the score, the AgentKit and elizaOS integrations, and the Rialto stock route",
       "severity": "Low to Medium",
       "timeToFix": "Published 0 to 3 days after the report",
-      "when": "20 Oct to 3 Nov 2026"
+      "when": "20 Oct to 4 Nov 2026"
     },
     {
       "team": "Gloam",
