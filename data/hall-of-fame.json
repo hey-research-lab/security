@@ -52,7 +52,7 @@
     {
       "team": "Hookr",
       "product": "hookr-contracts",
-      "reported": "First-release time shares: a lock made after a drop could share in that drop",
+      "reported": "Two published: drop timing in first-release time shares, and the launch wallet cap counted per contract",
       "severity": "Low",
       "timeToFix": "Fixed in the next release",
       "when": "29 Oct 2026, published 6 Nov"
