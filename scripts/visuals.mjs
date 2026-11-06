@@ -80,6 +80,16 @@ ${rows}
 // ---------------------------------------------------------------- the numbers
 
 /** Five tiles: advisories filed, accepted or published, pull requests sent, merged, teams in the hall of fame. */
+// A tile's sub-line wraps at its " · " joins, so a long list of names never runs past the card (about 26 mono characters).
+const subLines = (text, max = 26) => {
+  const lines = [];
+  for (const part of String(text).split(' · ')) {
+    const last = lines.length - 1;
+    if (last >= 0 && `${lines[last]} · ${part}`.length <= max) lines[last] = `${lines[last]} · ${part}`;
+    else lines.push(part);
+  }
+  return lines.slice(0, 2);
+};
 export function numbers({ advisories, pulls, hallCount }, theme) {
   const t = THEMES[theme];
   const a = advisories;
@@ -96,7 +106,7 @@ export function numbers({ advisories, pulls, hallCount }, theme) {
   const body = tiles.map((tile, i) => {
     const x = 24 + i * (tw + gap);
     const bar = tile.bar
-      ? `<rect x="${x + 18}" y="168" width="${(tw - 36).toFixed(1)}" height="6" rx="3" fill="${t.line}"/><rect class="g" style="animation-delay:${(0.2 + i * 0.15).toFixed(2)}s" x="${x + 18}" y="168" width="${(((tw - 36) * tile.bar[0]) / tile.bar[1]).toFixed(1)}" height="6" rx="3" fill="${t.lime}"/><text x="${x + 18}" y="194" font-family="${MONO}" font-size="12" fill="${t.sec}">${esc(tile.sub ?? `${n(tile.bar[0])} of ${n(tile.bar[1])}`)}</text>`
+      ? `<rect x="${x + 18}" y="168" width="${(tw - 36).toFixed(1)}" height="6" rx="3" fill="${t.line}"/><rect class="g" style="animation-delay:${(0.2 + i * 0.15).toFixed(2)}s" x="${x + 18}" y="168" width="${(((tw - 36) * tile.bar[0]) / tile.bar[1]).toFixed(1)}" height="6" rx="3" fill="${t.lime}"/>${subLines(tile.sub ?? `${n(tile.bar[0])} of ${n(tile.bar[1])}`).map((line, k, all) => `<text x="${x + 18}" y="${all.length > 1 ? 190 + k * 15 : 194}" font-family="${MONO}" font-size="12" fill="${t.sec}">${esc(line)}</text>`).join('')}`
       : '';
     return `<g><rect x="${x.toFixed(1)}" y="24" width="${tw.toFixed(1)}" height="${h - 72}" rx="10" fill="${t.panel}" stroke="${t.line}"/>
 <text x="${(x + 18).toFixed(1)}" y="78" font-family="${FONT}" font-size="38" font-weight="700" letter-spacing="-1" fill="${tile.lit ? t.lime : t.ink}">${esc(n(tile.value))}</text>

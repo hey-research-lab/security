@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="618" viewBox="0 0 1200 618" role="img" aria-label="Hall of fame: Agraris, within the hour; predict FWA, same day, before round 1; LoomDesk, same day; Priors, published 0 to 3 days after the report; Gloam, the last within hours">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="706" viewBox="0 0 1200 706" role="img" aria-label="Hall of fame: Agraris, within the hour; predict FWA, same day, before round 1; Agent402, same day; LoomDesk, same day; Priors, published 0 to 3 days after the report; Gloam, the last within hours">
 <style>.p{animation:pulse 3.5s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
-<rect width="1200" height="618" rx="14" fill="#F5F6F8"/>
+<rect width="1200" height="706" rx="14" fill="#F5F6F8"/>
 <text x="40" y="50" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="2" fill="#4F7A00">HALL OF FAME</text>
 <text x="40" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#535B66">Teams that fixed what we reported and said so in public, the fastest first.</text>
 <text x="92" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">TEAM</text><text x="340" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">WHAT WE REPORTED</text><text x="800" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">SEVERITY</text><text x="930" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">TIME TO FIX</text>
@@ -29,35 +29,46 @@
 <g>
 <rect x="24" y="304" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>
 <text x="40" y="337" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">03</text>
-<text x="92" y="338" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">LoomDesk</text>
-<text x="92" y="360" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">loomdesk-sdk</text>
-<text x="340" y="348" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Four gaps in the SDK's send gate</text>
-<text x="800" y="348" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low</text>
+<text x="92" y="338" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Agent402</text>
+
+<text x="340" y="337" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Two payment checks: x402 caps against the signed amount,</text><text x="340" y="358" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">and a Stellar fallback that took any transfer</text>
+<text x="800" y="348" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">High</text>
 <circle class="p" style="animation-delay:-1.4s" cx="916" cy="332" r="4" fill="#4F7A00"/>
 <text x="930" y="337" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">Same day</text>
-<text x="930" y="356" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">2 Nov 2026</text>
+<text x="930" y="356" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">6 Nov 2026</text>
 </g>
 <g>
 <rect x="24" y="392" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>
 <text x="40" y="425" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">04</text>
-<text x="92" y="426" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Priors</text>
-
-<text x="340" y="425" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Eight reports: StockVault, borrowing, the score, the</text><text x="340" y="446" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">AgentKit and elizaOS integrations, and the Rialto stock</text>
-<text x="800" y="436" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low to Medium</text>
+<text x="92" y="426" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">LoomDesk</text>
+<text x="92" y="448" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">loomdesk-sdk</text>
+<text x="340" y="436" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Four gaps in the SDK's send gate</text>
+<text x="800" y="436" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low</text>
 <circle class="p" style="animation-delay:-2.1s" cx="916" cy="420" r="4" fill="#4F7A00"/>
-<text x="930" y="425" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">Published 0 to 3 days</text><text x="930" y="444" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">after the report</text>
-<text x="930" y="463" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">20 Oct to 4 Nov 2026</text>
+<text x="930" y="425" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">Same day</text>
+<text x="930" y="444" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">2 Nov 2026</text>
 </g>
 <g>
 <rect x="24" y="480" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>
 <text x="40" y="513" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">05</text>
-<text x="92" y="514" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Gloam</text>
+<text x="92" y="514" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Priors</text>
 
-<text x="340" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Eight items across the vault contracts, relay, SDK, MCP</text><text x="340" y="534" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">server and app</text>
+<text x="340" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Eight reports: StockVault, borrowing, the score, AgentKit,</text><text x="340" y="534" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">elizaOS and the Rialto stock route</text>
 <text x="800" y="524" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low to Medium</text>
 <circle class="p" style="animation-delay:-2.8s" cx="916" cy="508" r="4" fill="#4F7A00"/>
-<text x="930" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">The last within hours</text>
-<text x="930" y="532" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">23 Oct to 1 Nov 2026</text>
+<text x="930" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">Published 0 to 3 days</text><text x="930" y="532" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">after the report</text>
+<text x="930" y="551" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">20 Oct to 4 Nov 2026</text>
 </g>
-<text x="40" y="598" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#535B66">A listing says the team handled a report well. It is not an audit and not a statement that the code is safe.</text>
+<g>
+<rect x="24" y="568" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>
+<text x="40" y="601" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">06</text>
+<text x="92" y="602" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Gloam</text>
+
+<text x="340" y="601" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Eight items across the vault contracts, relay, SDK, MCP</text><text x="340" y="622" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">server and app</text>
+<text x="800" y="612" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low to Medium</text>
+<circle class="p" style="animation-delay:-3.5s" cx="916" cy="596" r="4" fill="#4F7A00"/>
+<text x="930" y="601" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">The last within hours</text>
+<text x="930" y="620" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">23 Oct to 1 Nov 2026</text>
+</g>
+<text x="40" y="686" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#535B66">A listing says the team handled a report well. It is not an audit and not a statement that the code is safe.</text>
 </svg>
