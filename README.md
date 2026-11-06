@@ -78,7 +78,7 @@ If we see a problem being exploited in the wild, we may shorten these steps to w
 <a href="HALL_OF_FAME.md">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-    <img alt="Hall of fame: Agraris, predict FWA, Agent402, LoomDesk, Priors and Gloam, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
+    <img alt="Hall of fame: Agraris, predict FWA, Agent402, LoomDesk, Priors, Gloam and Hookr, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
   </picture>
 </a>
 

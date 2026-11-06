@@ -19,9 +19,13 @@
       {
         "project": "Agent402",
         "count": 2
+      },
+      {
+        "project": "Hookr",
+        "count": 3
       }
     ],
-    "unnamed": 4
+    "unnamed": 1
   },
   "publishedReadFrom": [
     {
@@ -35,6 +39,10 @@
     {
       "project": "Agent402",
       "repository": "MikeyPetrillo/Agent402"
+    },
+    {
+      "project": "Hookr",
+      "repository": "Hookr-fun/hookr-contracts"
     }
   ]
 }

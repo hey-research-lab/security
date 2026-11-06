@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="706" viewBox="0 0 1200 706" role="img" aria-label="Hall of fame: Agraris, within the hour; predict FWA, same day, before round 1; Agent402, same day; LoomDesk, same day; Priors, published 0 to 3 days after the report; Gloam, the last within hours">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="794" viewBox="0 0 1200 794" role="img" aria-label="Hall of fame: Agraris, within the hour; predict FWA, same day, before round 1; Agent402, same day; LoomDesk, same day; Priors, published 0 to 3 days after the report; Gloam, the last within hours; Hookr, fixed in the next release">
 <style>.p{animation:pulse 3.5s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
-<rect width="1200" height="706" rx="14" fill="#F5F6F8"/>
+<rect width="1200" height="794" rx="14" fill="#F5F6F8"/>
 <text x="40" y="50" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="2" fill="#4F7A00">HALL OF FAME</text>
 <text x="40" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#535B66">Teams that fixed what we reported and said so in public, the fastest first.</text>
 <text x="92" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">TEAM</text><text x="340" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">WHAT WE REPORTED</text><text x="800" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">SEVERITY</text><text x="930" y="114" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#535B66">TIME TO FIX</text>
@@ -70,5 +70,16 @@
 <text x="930" y="601" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">The last within hours</text>
 <text x="930" y="620" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">23 Oct to 1 Nov 2026</text>
 </g>
-<text x="40" y="686" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#535B66">A listing says the team handled a report well. It is not an audit and not a statement that the code is safe.</text>
+<g>
+<rect x="24" y="656" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>
+<text x="40" y="689" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">07</text>
+<text x="92" y="690" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Hookr</text>
+<text x="92" y="712" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">hookr-contracts</text>
+<text x="340" y="689" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">First-release time shares: a lock made after a drop could</text><text x="340" y="710" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">share in that drop</text>
+<text x="800" y="700" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#535B66">Low</text>
+<circle class="p" style="animation-delay:-4.2s" cx="916" cy="684" r="4" fill="#4F7A00"/>
+<text x="930" y="689" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">Fixed in the next release</text>
+<text x="930" y="708" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">29 Oct 2026, published 6 Nov</text>
+</g>
+<text x="40" y="774" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#535B66">A listing says the team handled a report well. It is not an audit and not a statement that the code is safe.</text>
 </svg>

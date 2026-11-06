@@ -48,6 +48,14 @@
       "severity": "Low to Medium",
       "timeToFix": "The last within hours",
       "when": "23 Oct to 1 Nov 2026"
+    },
+    {
+      "team": "Hookr",
+      "product": "hookr-contracts",
+      "reported": "First-release time shares: a lock made after a drop could share in that drop",
+      "severity": "Low",
+      "timeToFix": "Fixed in the next release",
+      "when": "29 Oct 2026, published 6 Nov"
     }
   ]
 }

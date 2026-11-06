@@ -6,7 +6,7 @@ code is safe.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-  <img alt="Hall of fame: Agraris fixed within the hour; predict FWA the same day, before round 1; Agent402 and LoomDesk the same day; Priors published 0 to 3 days after the report; Gloam the last within hours" src="assets/hall-light.svg" width="100%">
+  <img alt="Hall of fame: Agraris fixed within the hour; predict FWA the same day, before round 1; Agent402 and LoomDesk the same day; Priors published 0 to 3 days after the report; Gloam the last within hours; Hookr in the next release" src="assets/hall-light.svg" width="100%">
 </picture>
 
 ## The credits, with links
@@ -19,13 +19,14 @@ code is safe.
 | **LoomDesk** (loomdesk-sdk) | Four gaps in the SDK's send gate (Low) | Same day (2 Nov 2026) | [0.7.1, commit 2e97226](https://github.com/loomdesk-hq/sdk/commit/2e97226) |
 | **Priors** | Eight reports: StockVault, borrowing, the score, the AgentKit and elizaOS integrations, and the Rialto stock route (Low to Medium) | Published 0 to 3 days after the report (20 Oct to 4 Nov 2026) | [GHSA-3vg6](https://github.com/priors-agents/priors/security/advisories/GHSA-3vg6-2f3m-j5qm) · [GHSA-qcrq](https://github.com/priors-agents/priors/security/advisories/GHSA-qcrq-x8xg-25vg) · [GHSA-xccq](https://github.com/priors-agents/priors/security/advisories/GHSA-xccq-5ghg-w7mq) · [GHSA-jjxq](https://github.com/priors-agents/priors/security/advisories/GHSA-jjxq-7r68-44m5) · [GHSA-4w7q](https://github.com/priors-agents/priors/security/advisories/GHSA-4w7q-8vph-j5mr) · [GHSA-p29w](https://github.com/priors-agents/priors/security/advisories/GHSA-p29w-c8p2-qfm5) · [GHSA-cqcw](https://github.com/priors-agents/priors/security/advisories/GHSA-cqcw-9qjc-5qc7) · [credits in SECURITY-v2](https://github.com/priors-agents/priors/blob/main/docs/SECURITY-v2.md) |
 | **Gloam** | Eight items across the vault contracts, relay, SDK, MCP server and app (Low to Medium) | The last within hours (23 Oct to 1 Nov 2026) | [Joint post on X](https://x.com/HeyResearch/status/2117263881815118077) |
+| **Hookr** (hookr-contracts) | First-release time shares: a lock made after a drop could share in that drop (Low). Nobody was exposed | Fixed in the next release (29 Oct 2026), advisory published 6 Nov | [GHSA-43mv](https://github.com/Hookr-fun/hookr-contracts/security/advisories/GHSA-43mv-935h-rpm7) |
 
 ## The numbers so far
 
 <!-- NUMBERS:START -->
 - 28 private security advisories filed on GitHub, across 9 projects. 21 accepted or published by their teams.
 - 289 pull requests to 230 other teams' repositories, 56 merged.
-- 6 teams in the hall of fame.
+- 7 teams in the hall of fame.
 
 Advisories counted by hand, last on 7 November 2026. Pull requests read from GitHub search every day.
 <!-- NUMBERS:END -->
