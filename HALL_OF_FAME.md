@@ -23,11 +23,11 @@ code is safe.
 ## The numbers so far
 
 <!-- NUMBERS:START -->
-- 28 private security advisories filed on GitHub, across 9 projects. 18 accepted or published by their teams.
+- 28 private security advisories filed on GitHub, across 9 projects. 21 accepted or published by their teams.
 - 289 pull requests to 230 other teams' repositories, 56 merged.
 - 6 teams in the hall of fame.
 
-Advisories counted by hand, last on 6 November 2026. Pull requests read from GitHub search every day.
+Advisories counted by hand, last on 7 November 2026. Pull requests read from GitHub search every day.
 <!-- NUMBERS:END -->
 
 Your team can be next: see the [disclosure policy](README.md).
