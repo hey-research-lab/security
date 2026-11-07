@@ -2,5 +2,5 @@
   "about": "Pull requests the GitHub account hey-research-lab opened in repositories it does not own (GitHub search: is:pr author:hey-research-lab -user:hey-research-lab). Written by scripts/refresh.mjs every day.",
   "sent": 289,
   "repositories": 230,
-  "merged": 56
+  "merged": 57
 }
