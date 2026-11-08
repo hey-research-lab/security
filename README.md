@@ -6,10 +6,10 @@
 </a>
 
 <p align="center">
-  <a href="HALL_OF_FAME.md"><img alt="Hall of fame" src="https://img.shields.io/badge/security-hall%20of%20fame-C2FB03?style=flat-square&color=0B0E11&labelColor=1F242B"></a>
-  <a href="https://x.com/HeyResearch"><img alt="X" src="https://img.shields.io/badge/X-HeyResearch-C2FB03?style=flat-square&color=0B0E11&labelColor=1F242B&logo=x"></a>
-  <a href="mailto:hi@heyresearch.xyz"><img alt="Email" src="https://img.shields.io/badge/email-hi%40heyresearch.xyz-C2FB03?style=flat-square&color=0B0E11&labelColor=1F242B"></a>
-  <a href="https://heyresearch.xyz"><img alt="Website" src="https://img.shields.io/badge/web-heyresearch.xyz-C2FB03?style=flat-square&color=0B0E11&labelColor=1F242B"></a>
+  <a href="HALL_OF_FAME.md"><img alt="Hall of fame" src="assets/badges/hall-of-fame.svg"></a>
+  <a href="https://x.com/HeyResearch"><img alt="X" src="assets/badges/x.svg"></a>
+  <a href="mailto:hi@heyresearch.xyz"><img alt="Email" src="assets/badges/email.svg"></a>
+  <a href="https://heyresearch.xyz"><img alt="Website" src="assets/badges/web.svg"></a>
 </p>
 
 <p align="center">
