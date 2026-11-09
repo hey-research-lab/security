@@ -90,10 +90,10 @@ Every credit with its link, and the numbers so far: [HALL_OF_FAME.md](HALL_OF_FA
 | --- | --- |
 | **X** | [x.com/HeyResearch](https://x.com/HeyResearch) |
 | **Email** | hi@heyresearch.xyz |
-| **Your repository** | Turn on [private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository) and we report there. |
+| **Your repository** | Turn on [private vulnerability reporting](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository) and we report there. |
 
 Open source on Robinhood Chain? Send us the repo and we will read it too.
 
 <p align="center"><sub>The pictures on this page are redrawn every day by <a href="scripts/refresh.mjs">scripts/refresh.mjs</a>: the advisory counts are kept by hand in
-<a href="data/advisories.json">data/advisories.json</a>, the pull requests are read from GitHub search. Community-run by Hey Research Lab ·
+<a href="data/advisories.json">data/advisories.json</a>, the pull requests are read from GitHub search. The text, data and pictures here are CC BY 4.0 (<a href="LICENSE">LICENSE</a>). Community-run by Hey Research Lab ·
 not affiliated with or endorsed by Robinhood · not investment advice.</sub></p>
