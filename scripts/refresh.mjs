@@ -51,11 +51,17 @@ if (!offline) {
   // A partial answer would draw a fall that did not happen: refuse it and keep yesterday's numbers.
   if (items.length !== total) throw new Error(`GitHub search returned ${items.length} of ${total}`);
   const repoOf = (item) => item.repository_url.replace('https://api.github.com/repos/', '');
+  // A pull request that adds HEY to someone else's list or directory (public-apis#8410, awesome-web3#863 …) is a
+  // listing, not work on that team's code: left out, as on the profile (hey-research-lab/hey-research-lab).
+  const NOT_FIXES = new Set(['punkpeye/awesome-remote-mcp-servers', 'punkpeye/awesome-mcp-servers']);
+  const isListing = (item) =>
+    NOT_FIXES.has(repoOf(item)) || (/hey research lab|hey-research|heyresearch|hey-check/i.test(item.title) && /(^|:\s*)(add|point)\b/i.test(item.title));
+  const fixes = items.filter((item) => !isListing(item));
   pulls = {
     about: pulls.about,
-    sent: items.length,
-    repositories: new Set(items.map(repoOf)).size,
-    merged: items.filter((item) => item.pull_request?.merged_at).length,
+    sent: fixes.length,
+    repositories: new Set(fixes.map(repoOf)).size,
+    merged: fixes.filter((item) => item.pull_request?.merged_at).length,
   };
   writeFileSync('data/pull-requests.json', `${JSON.stringify(pulls, null, 2)}\n`);
 }
