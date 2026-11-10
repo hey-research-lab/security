@@ -57,7 +57,7 @@ export function hero(theme) {
     return `<text x="${px + 44}" y="${y + 4}" text-anchor="end" font-family="${MONO}" font-size="11" fill="${t.faint}">${i + 41}</text><rect x="${x}" y="${y - 4}" width="${width.toFixed(1)}" height="8" rx="4" fill="${lit ? t.lime : t.faint}" opacity="${lit ? 1 : 0.75}"/>`;
   }).join('');
   const foundY = py + 52 + found * rowH;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="Hey Research Lab security: get your code read before someone else does. Free, private-first security reviews for open-source projects on Robinhood Chain.">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="HEY Research Lab security: get your code read before someone else does. Free, private-first security reviews for open-source projects on Robinhood Chain.">
 <style>.scan{animation:scan 7s ease-in-out infinite}@keyframes scan{0%{transform:translateY(-${found * rowH}px);opacity:0}12%{opacity:1}60%,100%{transform:translateY(0);opacity:1}}.tag{animation:tag 7s ease-out infinite}@keyframes tag{0%,55%{opacity:0}70%,100%{opacity:1}}.cur{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}${REDUCED}</style>
 <rect width="${w}" height="${h}" rx="14" fill="${t.bg}"/>
 ${mark(56, 44, 34, theme)}

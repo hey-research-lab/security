@@ -1,7 +1,7 @@
 <a href="https://heyresearch.xyz">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <img alt="Hey Research Lab security: get your code read before someone else does" src="assets/hero-light.svg" width="100%">
+    <img alt="HEY Research Lab security: get your code read before someone else does" src="assets/hero-light.svg" width="100%">
   </picture>
 </a>
 
@@ -95,5 +95,5 @@ Every credit with its link, and the numbers so far: [HALL_OF_FAME.md](HALL_OF_FA
 Open source on Robinhood Chain? Send us the repo and we will read it too.
 
 <p align="center"><sub>The pictures on this page are redrawn every day by <a href="scripts/refresh.mjs">scripts/refresh.mjs</a>: the advisory counts are kept by hand in
-<a href="data/advisories.json">data/advisories.json</a>, the pull requests are read from GitHub search. The text, data and pictures here are CC BY 4.0 (<a href="LICENSE">LICENSE</a>). Community-run by Hey Research Lab ·
+<a href="data/advisories.json">data/advisories.json</a>, the pull requests are read from GitHub search. The text, data and pictures here are CC BY 4.0 (<a href="LICENSE">LICENSE</a>). Community-run by HEY Research Lab ·
 not affiliated with or endorsed by Robinhood · not investment advice.</sub></p>
