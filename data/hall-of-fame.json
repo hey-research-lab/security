@@ -26,6 +26,14 @@
       "when": "6 Nov 2026"
     },
     {
+      "team": "Autonomo",
+      "product": "autonomo-sdk",
+      "reported": "The Borro borrow path signed every transaction in the answer, outside the agent's spending caps",
+      "severity": "Medium",
+      "timeToFix": "Same day",
+      "when": "14 Nov 2026"
+    },
+    {
       "team": "LoomDesk",
       "product": "loomdesk-sdk",
       "reported": "Four gaps in the SDK's send gate",
@@ -48,6 +56,14 @@
       "severity": "Low to Medium",
       "timeToFix": "The last within hours",
       "when": "23 Oct to 1 Nov 2026"
+    },
+    {
+      "team": "1Shot",
+      "product": "embedded wallet",
+      "reported": "Embedded-wallet hardening: warnings a host could replace, cross-site extension sessions, requester origin checks",
+      "severity": "Low to Medium",
+      "timeToFix": "Within days",
+      "when": "2 to 12 Nov 2026"
     },
     {
       "team": "Hookr",
