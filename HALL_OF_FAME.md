@@ -27,7 +27,7 @@ code is safe.
 ## The numbers so far
 
 <!-- NUMBERS:START -->
-- 59 private security advisories filed on GitHub, across 27 projects. 22 accepted or published by their teams.
+- 61 private security advisories filed on GitHub, across 28 projects. 22 accepted or published by their teams.
 - 272 pull requests to 214 other teams' repositories, 51 merged.
 - 10 teams in the hall of fame.
 
