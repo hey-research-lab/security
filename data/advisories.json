@@ -1,12 +1,12 @@
 {
   "about": "Private security advisories HEY Research Lab filed on GitHub. Counts per project and state only: no finding, file or severity of an unpublished advisory is ever kept here, and a project is named only when it is already public in HALL_OF_FAME.md. Kept by hand. publishedReadFrom lists the public repositories whose published advisories crediting hey-research-lab are read live from GitHub's API (github.com/hey-research-lab's profile draws them).",
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "filed": {
-    "advisories": 61,
-    "projects": 28
+    "advisories": 86,
+    "projects": 38
   },
   "acceptedOrPublished": {
-    "total": 22,
+    "total": 28,
     "named": [
       {
         "project": "Priors",
@@ -17,12 +17,20 @@
         "count": 7
       },
       {
+        "project": "Hookr",
+        "count": 5
+      },
+      {
+        "project": "x402fi",
+        "count": 3
+      },
+      {
         "project": "Agent402",
         "count": 2
       },
       {
-        "project": "Hookr",
-        "count": 4
+        "project": "Stoa",
+        "count": 2
       }
     ],
     "unnamed": 1
@@ -34,7 +42,11 @@
     },
     {
       "project": "Gloam",
-      "repository": "cryptoduke01/gloam"
+      "repository": "gloamtrade/gloam"
+    },
+    {
+      "project": "x402fi",
+      "repository": "RWA-ID/x402fi"
     },
     {
       "project": "Agent402",

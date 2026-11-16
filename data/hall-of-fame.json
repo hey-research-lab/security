@@ -50,6 +50,22 @@
       "when": "14 Nov 2026"
     },
     {
+      "team": "Stoa",
+      "product": null,
+      "reported": "Two Mediums: dust orders could block new limit orders, and which Uniswap V4 pools the router uses",
+      "severity": "Medium",
+      "timeToFix": "Same day",
+      "when": "16 Nov 2026"
+    },
+    {
+      "team": "x402fi",
+      "product": null,
+      "reported": "Three gateway and facilitator payment issues, published as GitHub advisories",
+      "severity": "Medium to High",
+      "timeToFix": "Same day",
+      "when": "15 Nov 2026"
+    },
+    {
       "team": "Priors",
       "product": null,
       "reported": "Eight reports: StockVault, borrowing, the score, AgentKit, elizaOS and the Rialto stock route",
@@ -60,10 +76,18 @@
     {
       "team": "Gloam",
       "product": null,
-      "reported": "Eight items across the vault contracts, relay, SDK, MCP server and app",
+      "reported": "Eight items; seven now published as advisories: relay, SDK, payments, proofs of funds, holder vote",
       "severity": "Low to Medium",
       "timeToFix": "The last within hours",
-      "when": "23 Oct to 1 Nov 2026"
+      "when": "23 Oct–1 Nov, published 16 Nov"
+    },
+    {
+      "team": "AgentCity",
+      "product": null,
+      "reported": "Five findings across the placement market, terms, key custody, ownership docs and checkout",
+      "severity": "Not rated",
+      "timeToFix": "Within a week, answered one by one",
+      "when": "10 to 16 Nov 2026"
     },
     {
       "team": "1Shot",

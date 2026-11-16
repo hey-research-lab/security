@@ -13,12 +13,14 @@
 </p>
 
 <p align="center">
-  We read the open-source code of projects building on Robinhood Chain. When we find a security problem, we report it<br>
-  to the team privately, give them time to fix it, and credit them when it ships. This page is how we do that, what we<br>
-  ask in return and when we speak publicly. It applies to every project the same way, whatever its size.
+  We read the open-source code of projects building on Robinhood Chain, and of the wallets, SDKs and agent tools they<br>
+  depend on. When we find a security problem, we report it to the team privately, give them time to fix it, and credit<br>
+  them when it ships. This page is how we do that, how to ask us for a review, what we ask in return and when we speak<br>
+  publicly. It applies to every project the same way, whatever its size.
 </p>
 
 <p align="center">
+  <a href="#ask-for-a-review">Ask for a review</a> ·
   <a href="#how-disclosure-works">How disclosure works</a> ·
   <a href="#timeline">Timeline</a> ·
   <a href="#what-we-never-do">What we never do</a> ·
@@ -31,6 +33,26 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/numbers-dark.svg">
   <img alt="Security work in numbers: private advisories filed and accepted, pull requests sent and merged, teams in the hall of fame" src="assets/numbers-light.svg" width="100%">
 </picture>
+
+## Ask for a review
+
+Teams can ask us to read their code before someone else does. Stoa, AgentCity and Ostra are among the teams that have
+asked. This is how a requested review works today:
+
+1. **Public code.** We review code anyone can read: a public repository, or contracts verified on an explorer.
+2. **A pinned commit.** You tell us the repository, the commit and the contracts in scope (and the deployed addresses,
+   if any). We review exactly that commit, so every finding points at a line that does not move.
+3. **A public post that the review is under way.** You say on your own channel that HEY Research Lab is reviewing it,
+   and what is in scope. Readers then know a review is running, and that results come later.
+4. **Findings go to you privately first, each with a test.** Each finding comes with a test that reproduces it on a
+   local fork, through GitHub private vulnerability reporting or the channel you name. Nothing is published until you
+   have fixed it and chosen to publish.
+5. **Free, for now.** We do not charge for reviews and take no tokens for them.
+6. **A review, not an audit.** It is one careful read by an independent team, with tests for what we find. It does not
+   certify the code as safe, and you should not describe it as an audit.
+
+To ask, write to hi@heyresearch.xyz with a subject starting "Security", or message
+[x.com/HeyResearch](https://x.com/HeyResearch), with the repository and the commit.
 
 ## How disclosure works
 
@@ -78,7 +100,7 @@ If we see a problem being exploited in the wild, we may shorten these steps to w
 <a href="HALL_OF_FAME.md">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-    <img alt="Hall of fame: Agraris, predict FWA, Agent402, LoomDesk, Priors, Gloam and Hookr, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
+    <img alt="Hall of fame: Agraris, predict FWA, Agent402, Autonomo, LoomDesk, QHooks, Stoa, x402fi, Priors, Gloam, AgentCity, 1Shot and Hookr, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
   </picture>
 </a>
 
@@ -92,7 +114,7 @@ Every credit with its link, and the numbers so far: [HALL_OF_FAME.md](HALL_OF_FA
 | **Email** | hi@heyresearch.xyz |
 | **Your repository** | Turn on [private vulnerability reporting](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository) and we report there. |
 
-Open source on Robinhood Chain? Send us the repo and we will read it too.
+Open source on Robinhood Chain? Send us the repo and the commit, and we will read it too.
 
 <p align="center"><sub>The pictures on this page are redrawn every day by <a href="scripts/refresh.mjs">scripts/refresh.mjs</a>: the advisory counts are kept by hand in
 <a href="data/advisories.json">data/advisories.json</a>, the pull requests are read from GitHub search. The text, data and pictures here are CC BY 4.0 (<a href="LICENSE">LICENSE</a>). Community-run by HEY Research Lab ·

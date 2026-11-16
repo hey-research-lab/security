@@ -88,7 +88,7 @@ const subLines = (text, max = 26) => {
     if (last >= 0 && `${lines[last]} · ${part}`.length <= max) lines[last] = `${lines[last]} · ${part}`;
     else lines.push(part);
   }
-  return lines.slice(0, 2);
+  return lines.slice(0, 4);
 };
 export function numbers({ advisories, pulls, hallCount }, theme) {
   const t = THEMES[theme];
@@ -102,7 +102,7 @@ export function numbers({ advisories, pulls, hallCount }, theme) {
     { value: pulls.merged, label: 'of those merged by their teams', bar: [pulls.merged, pulls.sent], lit: true },
     { value: hallCount, label: 'teams in the hall of fame, each fixed what we reported' },
   ];
-  const w = 1200, h = 262, gap = 14, tw = (w - 48 - gap * (tiles.length - 1)) / tiles.length;
+  const w = 1200, h = 292, gap = 14, tw = (w - 48 - gap * (tiles.length - 1)) / tiles.length;
   const body = tiles.map((tile, i) => {
     const x = 24 + i * (tw + gap);
     const bar = tile.bar
@@ -192,7 +192,7 @@ export function hall(teams, theme) {
     const time = wrap(team.timeToFix, 26).slice(0, 2);
     return `<g>
 <rect x="24" y="${y}" width="${w - 48}" height="${rowH - 10}" rx="10" fill="${t.panel}" stroke="${t.line}"/>
-<text x="${col.rank}" y="${y + 33}" font-family="${MONO}" font-size="13" letter-spacing="1" fill="${t.lime}">0${i + 1}</text>
+<text x="${col.rank}" y="${y + 33}" font-family="${MONO}" font-size="13" letter-spacing="1" fill="${t.lime}">${String(i + 1).padStart(2, '0')}</text>
 <text x="${col.team}" y="${y + 34}" font-family="${FONT}" font-size="19" font-weight="700" fill="${t.ink}">${esc(team.team)}</text>
 ${team.product ? `<text x="${col.team}" y="${y + 56}" font-family="${MONO}" font-size="12" fill="${t.sec}">${esc(team.product)}</text>` : ''}
 ${textLines(what, { x: col.what, y: y + (what.length === 1 ? 44 : 33), step: 21, size: 15, fill: t.sec })}
