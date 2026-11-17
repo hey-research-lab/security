@@ -6,7 +6,7 @@ code is safe.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-  <img alt="Hall of fame: Agraris and NOUNY fixed within the hour; predict FWA the same day, before round 1; Agent402, Autonomo, LoomDesk, QHooks, Stoa and x402fi the same day; Priors published 0 to 3 days after the report; Gloam the last within hours; AgentCity within a week; 1Shot within days; Hookr in the next release" src="assets/hall-light.svg" width="100%">
+  <img alt="Hall of fame: Agraris and NOUNY fixed within the hour; Purser within two hours; predict FWA the same day, before round 1; Agent402, Autonomo, LoomDesk, QHooks, Stoa and x402fi the same day; Priors published 0 to 3 days after the report; Gloam the last within hours; AgentCity within a week; 1Shot within days; Hookr in the next release" src="assets/hall-light.svg" width="100%">
 </picture>
 
 ## The credits, with links
@@ -15,6 +15,7 @@ code is safe.
 |---|---|---|---|
 | **Agraris** | Public listings could set their own GitHub stars, activity and dates, and links accepted any URL scheme (Low) | Within the hour (2 Nov 2026) | [Commit 177e360](https://github.com/agrarisai/agraris/commit/177e360) · [post on X](https://x.com/agrarisai/status/2117276441310335355) |
 | **NOUNY** | A review of the contracts NOUNY asked for. Three Low findings, each with a fork test: new AgentVaults could not be created while the stock price feeds paused each weekend, removed payroll recipients still counted toward the 100-recipient cap, and NounyHook's one-swap-per-block limit used the L1 block number on Robinhood Chain (Low) | Within the hour (16 Nov 2026), fixed and redeployed; advisories published by the team on 17 Nov | [GHSA-9j35](https://github.com/nounyagent/nouny-agent/security/advisories/GHSA-9j35-fvff-78xp) · [GHSA-2f3v](https://github.com/nounyagent/nouny-agent/security/advisories/GHSA-2f3v-w6ff-pm77) · [GHSA-ggxm](https://github.com/nounyagent/nouny-agent/security/advisories/GHSA-ggxm-63r4-39pp) · [fix commit e79bca2](https://github.com/nounyagent/nouny-agent/commit/e79bca2) |
+| **Purser** | Three advisories, published by the team: any contract could pose as a Purser account, so the engine took a `Paid` event that moved nothing as proof of payment (High); the engine fetched any URL for an agent key and returned the answer, internal addresses included (Medium); and a caller with no key could use up the relayer's daily gas budget through the x402 facilitator (Medium) | Within two hours (17 Nov 2026), fixed in commit 81e92e6; advisories published by the team the same day | [GHSA-ch98](https://github.com/PurserAgents/purser/security/advisories/GHSA-ch98-775j-jhhv) · [GHSA-3h6j](https://github.com/PurserAgents/purser/security/advisories/GHSA-3h6j-gjj9-vwcm) · [GHSA-mwgj](https://github.com/PurserAgents/purser/security/advisories/GHSA-mwgj-gf6x-gm67) · [fix commit 81e92e6](https://github.com/PurserAgents/purser/commit/81e92e6) |
 | **predict FWA** (Sherwood arena) | Two game-logic issues found before launch (Low) | Same day, before round 1 (2 Nov 2026) | [Security review in the README](https://github.com/MirakoolDev/sherwood#security-review-nov-2026) · [post on X](https://x.com/pfwafun/status/2117205853539353009) |
 | **Agent402** | Two payment issues: the x402 buyer signed the seller's `maxAmountRequired` while spend caps checked `amount`, and the Stellar settle fallback took any recent transfer from the payer as payment (High) | Same day (6 Nov 2026) | [GHSA-q7vw](https://github.com/MikeyPetrillo/Agent402/security/advisories/GHSA-q7vw-c7hm-m885) · [GHSA-gcw5](https://github.com/MikeyPetrillo/Agent402/security/advisories/GHSA-gcw5-6259-gh72) · [post on X](https://x.com/Agent402Tools/status/2118727213222617597) |
 | **Autonomo** (autonomo-sdk) | When an agent's wallet was short, the SDK's Borro borrow path signed and sent every transaction in the answer it got back, outside the agent's spending caps (Medium) | Same day (14 Nov 2026), fixed in both SDKs (npm autonomo-sdk 0.1.3, PyPI autonomo 0.1.1) and re-tested by us | [post on X](https://x.com/useautonomo/status/2121624143187812566) |
@@ -31,9 +32,9 @@ code is safe.
 ## The numbers so far
 
 <!-- NUMBERS:START -->
-- 100 private security advisories filed on GitHub, across 47 projects. 31 accepted or published by their teams.
+- 106 private security advisories filed on GitHub, across 49 projects. 37 accepted or published by their teams.
 - 272 pull requests to 214 other teams' repositories, 52 merged.
-- 14 teams in the hall of fame.
+- 15 teams in the hall of fame.
 
 Advisories counted by hand, last on 17 November 2026. Pull requests read from GitHub search every day.
 <!-- NUMBERS:END -->

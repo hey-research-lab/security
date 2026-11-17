@@ -18,6 +18,14 @@
       "when": "16 Nov 2026, published 17 Nov"
     },
     {
+      "team": "Purser",
+      "product": null,
+      "reported": "Three published: a contract could pose as an account and pay nothing, an open URL fetch, a keyless gas drain",
+      "severity": "Medium to High",
+      "timeToFix": "Within two hours",
+      "when": "17 Nov 2026, published the same day"
+    },
+    {
       "team": "predict FWA",
       "product": "Sherwood arena",
       "reported": "Two game-logic issues, found before launch",
