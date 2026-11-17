@@ -36,8 +36,8 @@
 
 ## Ask for a review
 
-Teams can ask us to read their code before someone else does. Stoa, AgentCity and Ostra are among the teams that have
-asked. This is how a requested review works today:
+Teams can ask us to read their code before someone else does. Stoa, AgentCity, NOUNY, Ostra and Plankton are among the
+teams that have asked. This is how a requested review works today:
 
 1. **Public code.** We review code anyone can read: a public repository, or contracts verified on an explorer.
 2. **A pinned commit.** You tell us the repository, the commit and the contracts in scope (and the deployed addresses,
@@ -100,7 +100,7 @@ If we see a problem being exploited in the wild, we may shorten these steps to w
 <a href="HALL_OF_FAME.md">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-    <img alt="Hall of fame: Agraris, predict FWA, Agent402, Autonomo, LoomDesk, QHooks, Stoa, x402fi, Priors, Gloam, AgentCity, 1Shot and Hookr, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
+    <img alt="Hall of fame: Agraris, NOUNY, predict FWA, Agent402, Autonomo, LoomDesk, QHooks, Stoa, x402fi, Priors, Gloam, AgentCity, 1Shot and Hookr, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
   </picture>
 </a>
 

@@ -10,6 +10,14 @@
       "when": "2 Nov 2026"
     },
     {
+      "team": "NOUNY",
+      "product": null,
+      "reported": "Three Lows in a review they asked for: weekend vault creation, a payroll cap, the hook's per-block limit",
+      "severity": "Low",
+      "timeToFix": "Within the hour",
+      "when": "16 Nov 2026, published 17 Nov"
+    },
+    {
       "team": "predict FWA",
       "product": "Sherwood arena",
       "reported": "Two game-logic issues, found before launch",
