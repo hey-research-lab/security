@@ -2,11 +2,11 @@
   "about": "Private security advisories HEY Research Lab filed on GitHub. Counts per project and state only: no finding, file or severity of an unpublished advisory is ever kept here, and a project is named only when it is already public in HALL_OF_FAME.md. Kept by hand. publishedReadFrom lists the public repositories whose published advisories crediting hey-research-lab are read live from GitHub's API (github.com/hey-research-lab's profile draws them).",
   "asOf": "2026-11-17",
   "filed": {
-    "advisories": 106,
+    "advisories": 107,
     "projects": 49
   },
   "acceptedOrPublished": {
-    "total": 37,
+    "total": 40,
     "named": [
       {
         "project": "Priors",
@@ -15,6 +15,10 @@
       {
         "project": "Gloam",
         "count": 7
+      },
+      {
+        "project": "Purser",
+        "count": 6
       },
       {
         "project": "Hookr",
@@ -29,7 +33,7 @@
         "count": 3
       },
       {
-        "project": "Purser",
+        "project": "Sourcify",
         "count": 3
       },
       {
@@ -41,7 +45,7 @@
         "count": 2
       }
     ],
-    "unnamed": 4
+    "unnamed": 1
   },
   "publishedReadFrom": [
     {
@@ -71,6 +75,10 @@
     {
       "project": "Purser",
       "repository": "PurserAgents/purser"
+    },
+    {
+      "project": "Sourcify",
+      "repository": "argotorg/sourcify"
     }
   ]
 }

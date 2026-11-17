@@ -20,10 +20,10 @@
     {
       "team": "Purser",
       "product": null,
-      "reported": "Three published: a contract could pose as an account and pay nothing, an open URL fetch, a keyless gas drain",
+      "reported": "Six published: an account that paid nothing, an open URL fetch, a gas drain, Shield poisoning, a call check, a race",
       "severity": "Medium to High",
       "timeToFix": "Within two hours",
-      "when": "17 Nov 2026, published the same day"
+      "when": "17 Nov 2026, published that day"
     },
     {
       "team": "predict FWA",
@@ -80,6 +80,14 @@
       "severity": "Medium to High",
       "timeToFix": "Same day",
       "when": "15 Nov 2026"
+    },
+    {
+      "team": "Sourcify",
+      "product": null,
+      "reported": "Three published: code execution on the verification server, and two false Exact Matches for code that differs",
+      "severity": "Medium to Critical",
+      "timeToFix": "Within about a day",
+      "when": "16 Nov 2026, published 17 Nov"
     },
     {
       "team": "Priors",

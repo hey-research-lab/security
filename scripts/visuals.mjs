@@ -191,13 +191,15 @@ export function hall(teams, theme) {
     const y = top + i * rowH;
     const what = wrap(team.reported, 58).slice(0, 2);
     const time = wrap(team.timeToFix, 26).slice(0, 2);
+    // A severity range longer than the column ("Medium to Critical") wraps, so it never runs into the time to fix.
+    const sev = wrap(team.severity, 14).slice(0, 2);
     return `<g>
 <rect x="24" y="${y}" width="${w - 48}" height="${rowH - 10}" rx="10" fill="${t.panel}" stroke="${t.line}"/>
 <text x="${col.rank}" y="${y + 33}" font-family="${MONO}" font-size="13" letter-spacing="1" fill="${t.lime}">${String(i + 1).padStart(2, '0')}</text>
 <text x="${col.team}" y="${y + 34}" font-family="${FONT}" font-size="19" font-weight="700" fill="${t.ink}">${esc(team.team)}</text>
 ${team.product ? `<text x="${col.team}" y="${y + 56}" font-family="${MONO}" font-size="12" fill="${t.sec}">${esc(team.product)}</text>` : ''}
 ${textLines(what, { x: col.what, y: y + (what.length === 1 ? 44 : 33), step: 21, size: 15, fill: t.sec })}
-<text x="${col.sev}" y="${y + 44}" font-family="${MONO}" font-size="13" fill="${t.sec}">${esc(team.severity)}</text>
+${textLines(sev, { x: col.sev, y: y + (sev.length === 1 ? 44 : 36), step: 17, size: 13, family: MONO, fill: t.sec })}
 <circle class="p" style="animation-delay:-${(i * 0.7).toFixed(1)}s" cx="${col.time - 14}" cy="${y + 28}" r="4" fill="${t.lime}"/>
 ${textLines(time, { x: col.time, y: y + 33, step: 19, size: 15, weight: 600, fill: t.ink })}
 <text x="${col.time}" y="${y + 33 + time.length * 19}" font-family="${MONO}" font-size="12" fill="${t.sec}">${esc(team.when)}</text>
