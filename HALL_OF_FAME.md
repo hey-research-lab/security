@@ -34,7 +34,7 @@ code is safe.
 
 <!-- NUMBERS:START -->
 - 112 private security advisories filed on GitHub, across 50 projects. 41 accepted or published by their teams.
-- 271 pull requests to 213 other teams' repositories, 52 merged.
+- 271 pull requests to 213 other teams' repositories, 53 merged.
 - 16 teams in the hall of fame.
 
 Advisories counted by hand, last on 19 November 2026. Pull requests read from GitHub search every day.
