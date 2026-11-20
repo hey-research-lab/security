@@ -1,86 +1,6 @@
 {
-  "about": "The teams in HALL_OF_FAME.md, in its order: by how quickly they shipped a fix after our report, then by name. The short lines the hall of fame picture draws; HALL_OF_FAME.md keeps the links.",
+  "about": "The teams in HALL_OF_FAME.md, in its order: the largest projects first. The short lines the hall of fame picture draws; HALL_OF_FAME.md keeps the links.",
   "teams": [
-    {
-      "team": "Agraris",
-      "product": null,
-      "reported": "Public listings could set their own GitHub stars, activity and dates, and links accepted any URL scheme",
-      "severity": "Low",
-      "timeToFix": "Within the hour",
-      "when": "2 Nov 2026"
-    },
-    {
-      "team": "NOUNY",
-      "product": null,
-      "reported": "Three Lows in a review they asked for: weekend vault creation, a payroll cap, the hook's per-block limit",
-      "severity": "Low",
-      "timeToFix": "Within the hour",
-      "when": "16 Nov 2026, published 17 Nov"
-    },
-    {
-      "team": "Purser",
-      "product": null,
-      "reported": "Six published: an account that paid nothing, an open URL fetch, a gas drain, Shield poisoning, a call check, a race",
-      "severity": "Medium to High",
-      "timeToFix": "Within two hours",
-      "when": "17 Nov 2026, published that day"
-    },
-    {
-      "team": "predict FWA",
-      "product": "Sherwood arena",
-      "reported": "Two game-logic issues, found before launch",
-      "severity": "Low",
-      "timeToFix": "Same day, before round 1",
-      "when": "2 Nov 2026"
-    },
-    {
-      "team": "Agent402",
-      "product": null,
-      "reported": "Two payment checks: x402 caps against the signed amount, and a Stellar fallback that took any transfer",
-      "severity": "High",
-      "timeToFix": "Same day",
-      "when": "6 Nov 2026"
-    },
-    {
-      "team": "Autonomo",
-      "product": "autonomo-sdk",
-      "reported": "The Borro borrow path signed every transaction in the answer, outside the agent's spending caps",
-      "severity": "Medium",
-      "timeToFix": "Same day",
-      "when": "14 Nov 2026"
-    },
-    {
-      "team": "LoomDesk",
-      "product": "loomdesk-sdk",
-      "reported": "Four gaps in the SDK's send gate",
-      "severity": "Low",
-      "timeToFix": "Same day",
-      "when": "2 Nov 2026"
-    },
-    {
-      "team": "QHooks",
-      "product": null,
-      "reported": "A key-storage issue in how the quantum key was protected",
-      "severity": "Medium",
-      "timeToFix": "Same day",
-      "when": "14 Nov 2026"
-    },
-    {
-      "team": "Stoa",
-      "product": null,
-      "reported": "Two Mediums: dust orders could block new limit orders, and which Uniswap V4 pools the router uses",
-      "severity": "Medium",
-      "timeToFix": "Same day",
-      "when": "16 Nov 2026"
-    },
-    {
-      "team": "x402fi",
-      "product": null,
-      "reported": "Three gateway and facilitator payment issues, published as GitHub advisories",
-      "severity": "Medium to High",
-      "timeToFix": "Same day",
-      "when": "15 Nov 2026"
-    },
     {
       "team": "Sourcify",
       "product": null,
@@ -88,6 +8,14 @@
       "severity": "Medium to Critical",
       "timeToFix": "Within about a day",
       "when": "16 Nov 2026, published 17 Nov"
+    },
+    {
+      "team": "Hookr",
+      "product": "hookr-contracts",
+      "reported": "Two published: drop timing in first-release time shares, and the launch wallet cap counted per contract",
+      "severity": "Low",
+      "timeToFix": "Fixed in the next release",
+      "when": "29 Oct 2026, published 6 Nov"
     },
     {
       "team": "Priors",
@@ -98,12 +26,36 @@
       "when": "20 Oct to 4 Nov 2026"
     },
     {
+      "team": "QHooks",
+      "product": null,
+      "reported": "A key-storage issue in how the quantum key was protected",
+      "severity": "Medium",
+      "timeToFix": "Same day",
+      "when": "14 Nov 2026"
+    },
+    {
       "team": "Gloam",
       "product": null,
       "reported": "Eight items; seven now published as advisories: relay, SDK, payments, proofs of funds, holder vote",
       "severity": "Low to Medium",
       "timeToFix": "The last within hours",
       "when": "23 Oct–1 Nov, published 16 Nov"
+    },
+    {
+      "team": "LoomDesk",
+      "product": "loomdesk-sdk",
+      "reported": "Four gaps in the SDK's send gate",
+      "severity": "Low",
+      "timeToFix": "Same day",
+      "when": "2 Nov 2026"
+    },
+    {
+      "team": "predict FWA",
+      "product": "Sherwood arena",
+      "reported": "Two game-logic issues, found before launch",
+      "severity": "Low",
+      "timeToFix": "Same day, before round 1",
+      "when": "2 Nov 2026"
     },
     {
       "team": "AgentCity",
@@ -114,6 +66,46 @@
       "when": "10 to 16 Nov 2026"
     },
     {
+      "team": "Stoa",
+      "product": null,
+      "reported": "Two Mediums: dust orders could block new limit orders, and which Uniswap V4 pools the router uses",
+      "severity": "Medium",
+      "timeToFix": "Same day",
+      "when": "16 Nov 2026"
+    },
+    {
+      "team": "NOUNY",
+      "product": null,
+      "reported": "Three Lows in a review they asked for: weekend vault creation, a payroll cap, the hook's per-block limit",
+      "severity": "Low",
+      "timeToFix": "Within the hour",
+      "when": "16 Nov 2026, published 17 Nov"
+    },
+    {
+      "team": "Agraris",
+      "product": null,
+      "reported": "Public listings could set their own GitHub stars, activity and dates, and links accepted any URL scheme",
+      "severity": "Low",
+      "timeToFix": "Within the hour",
+      "when": "2 Nov 2026"
+    },
+    {
+      "team": "Purser",
+      "product": null,
+      "reported": "Six published: an account that paid nothing, an open URL fetch, a gas drain, Shield poisoning, a call check, a race",
+      "severity": "Medium to High",
+      "timeToFix": "Within two hours",
+      "when": "17 Nov 2026, published that day"
+    },
+    {
+      "team": "Agent402",
+      "product": null,
+      "reported": "Two payment checks: x402 caps against the signed amount, and a Stellar fallback that took any transfer",
+      "severity": "High",
+      "timeToFix": "Same day",
+      "when": "6 Nov 2026"
+    },
+    {
       "team": "1Shot",
       "product": "embedded wallet",
       "reported": "Embedded-wallet hardening: warnings a host could replace, cross-site extension sessions, requester origin checks",
@@ -122,12 +114,20 @@
       "when": "2 to 12 Nov 2026"
     },
     {
-      "team": "Hookr",
-      "product": "hookr-contracts",
-      "reported": "Two published: drop timing in first-release time shares, and the launch wallet cap counted per contract",
-      "severity": "Low",
-      "timeToFix": "Fixed in the next release",
-      "when": "29 Oct 2026, published 6 Nov"
+      "team": "Autonomo",
+      "product": "autonomo-sdk",
+      "reported": "The Borro borrow path signed every transaction in the answer, outside the agent's spending caps",
+      "severity": "Medium",
+      "timeToFix": "Same day",
+      "when": "14 Nov 2026"
+    },
+    {
+      "team": "x402fi",
+      "product": null,
+      "reported": "Three gateway and facilitator payment issues, published as GitHub advisories",
+      "severity": "Medium to High",
+      "timeToFix": "Same day",
+      "when": "15 Nov 2026"
     }
   ]
 }

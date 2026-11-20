@@ -210,7 +210,7 @@ ${textLines(time, { x: col.time, y: y + 33, step: 19, size: 15, weight: 600, fil
 <style>.p{animation:pulse 3.5s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}${REDUCED}</style>
 <rect width="${w}" height="${h}" rx="14" fill="${t.bg}"/>
 <text x="40" y="50" font-family="${MONO}" font-size="13" letter-spacing="2" fill="${t.lime}">HALL OF FAME</text>
-<text x="40" y="76" font-family="${FONT}" font-size="15" fill="${t.sec}">Teams that fixed what we reported and said so in public, the fastest first.</text>
+<text x="40" y="76" font-family="${FONT}" font-size="15" fill="${t.sec}">Teams that fixed what we reported and said so in public, the largest projects first.</text>
 ${head(col.team, 'TEAM')}${head(col.what, 'WHAT WE REPORTED')}${head(col.sev, 'SEVERITY')}${head(col.time, 'TIME TO FIX')}
 ${rows}
 <text x="40" y="${h - 20}" font-family="${FONT}" font-size="13" fill="${t.sec}">A listing says the team handled a report well. It is not an audit and not a statement that the code is safe.</text>
