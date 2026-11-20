@@ -6,8 +6,8 @@
 const FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif";
 const MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace";
 export const THEMES = {
-  dark: { bg: '#0B0E11', panel: '#14181D', line: '#272D35', ink: '#E9ECF0', sec: '#94A0AD', faint: '#3A424D', lime: '#C2FB03', limeSoft: 'rgba(194,251,3,0.16)', markInk: '#E9ECF0' },
-  light: { bg: '#F5F6F8', panel: '#FFFFFF', line: '#DDE1E7', ink: '#0B0E11', sec: '#535B66', faint: '#C5CBD3', lime: '#4F7A00', limeSoft: 'rgba(79,122,0,0.14)', markInk: '#0B0E11' },
+  dark: { bg: '#0B0E11', panel: '#14181D', line: '#272D35', ink: '#E9ECF0', sec: '#94A0AD', faint: '#3A424D', lime: '#C2FB03', limeSoft: 'rgba(194,251,3,0.16)', base: '#0000FF', markInk: '#E9ECF0' },
+  light: { bg: '#F5F6F8', panel: '#FFFFFF', line: '#DDE1E7', ink: '#0B0E11', sec: '#535B66', faint: '#C5CBD3', lime: '#4F7A00', limeSoft: 'rgba(79,122,0,0.14)', base: '#0000FF', markInk: '#0B0E11' },
 };
 // The mark's stroke is the brand lime in both themes, as on heyresearch.xyz.
 const BRAND_LIME = '#C2FB03';
@@ -57,7 +57,7 @@ export function hero(theme) {
     return `<text x="${px + 44}" y="${y + 4}" text-anchor="end" font-family="${MONO}" font-size="11" fill="${t.faint}">${i + 41}</text><rect x="${x}" y="${y - 4}" width="${width.toFixed(1)}" height="8" rx="4" fill="${lit ? t.lime : t.faint}" opacity="${lit ? 1 : 0.75}"/>`;
   }).join('');
   const foundY = py + 52 + found * rowH;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="HEY Research Lab security: get your code read before someone else does. Free, private-first security reviews for open-source projects on Robinhood Chain.">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="HEY Research Lab security: get your code read before someone else does. Free, private-first security reviews for open-source projects on Robinhood Chain, Base and Ethereum.">
 <style>.scan{animation:scan 7s ease-in-out infinite}@keyframes scan{0%{transform:translateY(-${found * rowH}px);opacity:0}12%{opacity:1}60%,100%{transform:translateY(0);opacity:1}}.tag{animation:tag 7s ease-out infinite}@keyframes tag{0%,55%{opacity:0}70%,100%{opacity:1}}.cur{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}${REDUCED}</style>
 <rect width="${w}" height="${h}" rx="14" fill="${t.bg}"/>
 ${mark(56, 44, 34, theme)}
@@ -65,7 +65,7 @@ ${mark(56, 44, 34, theme)}
 <text x="56" y="122" font-family="${MONO}" font-size="14" letter-spacing="3" fill="${t.lime}">SECURITY IN THE OPEN<tspan class="cur"> ▌</tspan></text>
 <text x="56" y="182" font-family="${FONT}" font-size="46" font-weight="800" letter-spacing="-1.6" fill="${t.ink}">Get your code read</text>
 <text x="56" y="236" font-family="${FONT}" font-size="46" font-weight="800" letter-spacing="-1.6" fill="${t.ink}">before <tspan fill="${t.lime}">someone else does.</tspan></text>
-<text x="56" y="282" font-family="${FONT}" font-size="19" fill="${t.sec}">Free security reviews for open-source projects on Robinhood Chain.</text>
+<text x="56" y="282" font-family="${FONT}" font-size="19" fill="${t.sec}">Free security reviews for open code on <tspan fill="${t.lime}" font-weight="600">Robinhood Chain</tspan>, <tspan fill="${t.base}" font-weight="600">Base</tspan> and Ethereum.</text>
 <text x="56" y="308" font-family="${FONT}" font-size="19" fill="${t.sec}">Reported privately first. Published with credit once it is fixed.</text>
 <rect x="${px}" y="${py}" width="${pw}" height="${h - 2 * py}" rx="12" fill="${t.panel}" stroke="${t.line}"/>
 <circle cx="${px + 22}" cy="${py + 22}" r="4" fill="${t.faint}"/><circle cx="${px + 36}" cy="${py + 22}" r="4" fill="${t.faint}"/><circle cx="${px + 50}" cy="${py + 22}" r="4" fill="${t.faint}"/>

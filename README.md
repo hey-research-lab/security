@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  We read the open-source code of projects building on Robinhood Chain, and of the wallets, SDKs and agent tools they<br>
+  We read the open-source code of projects building on Robinhood Chain, Base and Ethereum, and of the wallets, SDKs and agent tools they<br>
   depend on. When we find a security problem, we report it to the team privately, give them time to fix it, and credit<br>
   them when it ships. This page is how we do that, how to ask us for a review, what we ask in return and when we speak<br>
   publicly. It applies to every project the same way, whatever its size.
@@ -114,7 +114,7 @@ Every credit with its link, and the numbers so far: [HALL_OF_FAME.md](HALL_OF_FA
 | **Email** | hi@heyresearch.xyz |
 | **Your repository** | Turn on [private vulnerability reporting](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository) and we report there. |
 
-Open source on Robinhood Chain? Send us the repo and the commit, and we will read it too.
+Open source on Robinhood Chain, Base or Ethereum? Send us the repo and the commit, and we will read it too.
 
 <p align="center"><sub>The pictures on this page are redrawn every day by <a href="scripts/refresh.mjs">scripts/refresh.mjs</a>: the advisory counts are kept by hand in
 <a href="data/advisories.json">data/advisories.json</a>, the pull requests are read from GitHub search. The text, data and pictures here are CC BY 4.0 (<a href="LICENSE">LICENSE</a>). Community-run by HEY Research Lab ·
