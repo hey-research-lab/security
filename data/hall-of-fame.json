@@ -36,10 +36,10 @@
     {
       "team": "Gloam",
       "product": null,
-      "reported": "Eight items; seven now published as advisories: relay, SDK, payments, proofs of funds, holder vote",
+      "reported": "Nine reports; eight now published as advisories: relay, SDK, payments, proofs of funds, holder vote, cash out",
       "severity": "Low to Medium",
       "timeToFix": "The last within hours",
-      "when": "23 Oct–1 Nov, published 16 Nov"
+      "when": "23 Oct–7 Nov, published 16–18 Nov"
     },
     {
       "team": "LoomDesk",

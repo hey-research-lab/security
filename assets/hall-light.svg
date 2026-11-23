@@ -53,11 +53,11 @@
 <text x="40" y="513" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#4F7A00">05</text>
 <text x="92" y="514" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#0B0E11">Gloam</text>
 
-<text x="340" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Eight items; seven now published as advisories: relay,</text><text x="340" y="534" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">SDK, payments, proofs of funds, holder vote</text>
+<text x="340" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">Nine reports; eight now published as advisories: relay,</text><text x="340" y="534" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#535B66">SDK, payments, proofs of funds, holder vote, cash out</text>
 <text x="800" y="524" text-anchor="start" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#535B66">Low to Medium</text>
 <circle class="p" style="animation-delay:-2.8s" cx="916" cy="508" r="4" fill="#4F7A00"/>
 <text x="930" y="513" text-anchor="start" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0B0E11">The last within hours</text>
-<text x="930" y="532" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">23 Oct–1 Nov, published 16 Nov</text>
+<text x="930" y="532" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#535B66">23 Oct–7 Nov, published 16–18 Nov</text>
 </g>
 <g>
 <rect x="24" y="568" width="1152" height="78" rx="10" fill="#FFFFFF" stroke="#DDE1E7"/>
