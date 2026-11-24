@@ -5,7 +5,7 @@ handled a report well. It is not an audit and not a statement that the code is s
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-  <img alt="Hall of fame, largest projects first: Sourcify, Hookr, Priors, QHooks, Gloam, LoomDesk, predict FWA, AgentCity, Stoa, NOUNY, Agraris, Purser, Agent402, 1Shot, Autonomo and x402fi, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
+  <img alt="Hall of fame, largest projects first: Sourcify, Ethernal, Hookr, Priors, QHooks, Gloam, LoomDesk, predict FWA, AgentCity, Stoa, NOUNY, Agraris, Purser, Agent402, 1Shot, Autonomo and x402fi, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
 </picture>
 
 ## The credits, with links
@@ -13,6 +13,7 @@ handled a report well. It is not an audit and not a statement that the code is s
 | Team | What we reported | Time to fix | Credit |
 |---|---|---|---|
 | **Sourcify** | Three advisories in the open-source contract verification service run by the Argot Collective, published by the team: two input checks in the public verify endpoint could be combined so that anyone, with no account, made the verification server download a git repository and run a file from it (Critical); a match on an old creation transaction alone stored an Exact Match for an address that now holds different code (Medium); and the library call protection left the first 21 bytes of on-chain code unchecked, so a library that starts with other code still got an Exact Match (Medium) | Within about a day (reported 16 Nov 2026, fixed 17 Nov in sourcify-server 4.4.0, lib-sourcify 3.8.1 and compilers 1.4.1); advisories published by the team the same day | [GHSA-726m](https://github.com/argotorg/sourcify/security/advisories/GHSA-726m-wjrf-m267) · [GHSA-w97v](https://github.com/argotorg/sourcify/security/advisories/GHSA-w97v-g4q9-998q) · [GHSA-mg7q](https://github.com/argotorg/sourcify/security/advisories/GHSA-mg7q-xhfh-rmfq) · [fix PR #3072](https://github.com/argotorg/sourcify/pull/3072) · [fix PR #3073](https://github.com/argotorg/sourcify/pull/3073) · [fix PR #3074](https://github.com/argotorg/sourcify/pull/3074) |
+| **Ethernal** | Two advisories in the open-source block explorer, published by the team: when `AUTH_SECRET` was unset, as the self-hosted installer left it, any request naming a user id was accepted as that user, so anyone could read an admin's API token and the faucet's private key (Critical); and one unauthenticated contract-verification request with crafted constructor arguments looped the backend forever (High) | The hosted service was closed the same day the report was read; both fixed in 5.19.5 (24 Nov 2026) and the advisories published by the team the same day | [GHSA-h95w](https://github.com/tryethernal/ethernal/security/advisories/GHSA-h95w-84r3-2wmx) · [GHSA-gcv3](https://github.com/tryethernal/ethernal/security/advisories/GHSA-gcv3-72c3-2jq3) · [fix PR #1419](https://github.com/tryethernal/ethernal/pull/1419) |
 | **Hookr** (hookr-contracts) | Two published: in first-release time shares a lock made after a drop could share in that drop, and the per-wallet launch cap counted per contract for router swaps (Low). Nobody was exposed | Fixed in the next release (29 Oct 2026), advisories published 6 Nov | [GHSA-43mv](https://github.com/Hookr-fun/hookr-contracts/security/advisories/GHSA-43mv-935h-rpm7) · [GHSA-m3fx](https://github.com/Hookr-fun/hookr-contracts/security/advisories/GHSA-m3fx-pjvg-cmf7) |
 | **Priors** | Eight published advisories: StockVault and its PT-USDG price tape, borrowing, the score, the elizaOS integration, the Rialto stock route, and, credited with another reporter, `line_send` in @priors/mcp, which with the line board turned on (off by default) sent a line without checking it against the root owner's own signed offer (Low to Medium) | Published 0 to 10 days after the report (reported 20 Oct to 13 Nov 2026, the last published 23 Nov) | [GHSA-3vg6](https://github.com/priors-agents/priors/security/advisories/GHSA-3vg6-2f3m-j5qm) · [GHSA-qcrq](https://github.com/priors-agents/priors/security/advisories/GHSA-qcrq-x8xg-25vg) · [GHSA-xccq](https://github.com/priors-agents/priors/security/advisories/GHSA-xccq-5ghg-w7mq) · [GHSA-jjxq](https://github.com/priors-agents/priors/security/advisories/GHSA-jjxq-7r68-44m5) · [GHSA-4w7q](https://github.com/priors-agents/priors/security/advisories/GHSA-4w7q-8vph-j5mr) · [GHSA-p29w](https://github.com/priors-agents/priors/security/advisories/GHSA-p29w-c8p2-qfm5) · [GHSA-cqcw](https://github.com/priors-agents/priors/security/advisories/GHSA-cqcw-9qjc-5qc7) · [GHSA-98wp](https://github.com/priors-agents/priors/security/advisories/GHSA-98wp-7ghc-6f3w) · [credits in SECURITY-v2](https://github.com/priors-agents/priors/blob/main/docs/SECURITY-v2.md) |
 | **QHooks** | A key-storage issue in how the quantum key was protected (Medium) | Same day (14 Nov 2026) | [Security changelog](https://qhooks.com/changelog#quantum-key-protection) |
@@ -33,11 +34,11 @@ handled a report well. It is not an audit and not a statement that the code is s
 ## The numbers so far
 
 <!-- NUMBERS:START -->
-- 131 private security advisories filed on GitHub, across 60 projects. 42 accepted or published by their teams.
+- 134 private security advisories filed on GitHub, across 62 projects. 44 accepted or published by their teams.
 - 279 pull requests to 221 other teams' repositories, 53 merged.
-- 16 teams in the hall of fame.
+- 17 teams in the hall of fame.
 
-Advisories counted by hand, last on 24 November 2026. Pull requests read from GitHub search every day.
+Advisories counted by hand, last on 25 November 2026. Pull requests read from GitHub search every day.
 <!-- NUMBERS:END -->
 
 Your team can be next: see the [disclosure policy](README.md).

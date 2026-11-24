@@ -1,84 +1,92 @@
 {
-  "about": "Private security advisories HEY Research Lab filed on GitHub. Counts per project and state only: no finding, file or severity of an unpublished advisory is ever kept here, and a project is named only when it is already public in HALL_OF_FAME.md. Kept by hand. publishedReadFrom lists the public repositories whose published advisories crediting hey-research-lab are read live from GitHub's API (github.com/hey-research-lab's profile draws them).",
-  "asOf": "2026-11-24",
-  "filed": {
-    "advisories": 131,
-    "projects": 60
+ "about": "Private security advisories HEY Research Lab filed on GitHub. Counts per project and state only: no finding, file or severity of an unpublished advisory is ever kept here, and a project is named only when it is already public in HALL_OF_FAME.md. Kept by hand. publishedReadFrom lists the public repositories whose published advisories crediting hey-research-lab are read live from GitHub's API (github.com/hey-research-lab's profile draws them).",
+ "asOf": "2026-11-25",
+ "filed": {
+  "advisories": 134,
+  "projects": 62
+ },
+ "acceptedOrPublished": {
+  "total": 44,
+  "named": [
+   {
+    "project": "Priors",
+    "count": 8
+   },
+   {
+    "project": "Gloam",
+    "count": 8
+   },
+   {
+    "project": "Purser",
+    "count": 6
+   },
+   {
+    "project": "Hookr",
+    "count": 5
+   },
+   {
+    "project": "x402fi",
+    "count": 3
+   },
+   {
+    "project": "NOUNY",
+    "count": 3
+   },
+   {
+    "project": "Sourcify",
+    "count": 3
+   },
+   {
+    "project": "Ethernal",
+    "count": 2
+   },
+   {
+    "project": "Agent402",
+    "count": 2
+   },
+   {
+    "project": "Stoa",
+    "count": 2
+   }
+  ],
+  "unnamed": 2
+ },
+ "publishedReadFrom": [
+  {
+   "project": "Priors",
+   "repository": "priors-agents/priors"
   },
-  "acceptedOrPublished": {
-    "total": 42,
-    "named": [
-      {
-        "project": "Priors",
-        "count": 8
-      },
-      {
-        "project": "Gloam",
-        "count": 8
-      },
-      {
-        "project": "Purser",
-        "count": 6
-      },
-      {
-        "project": "Hookr",
-        "count": 5
-      },
-      {
-        "project": "x402fi",
-        "count": 3
-      },
-      {
-        "project": "NOUNY",
-        "count": 3
-      },
-      {
-        "project": "Sourcify",
-        "count": 3
-      },
-      {
-        "project": "Agent402",
-        "count": 2
-      },
-      {
-        "project": "Stoa",
-        "count": 2
-      }
-    ],
-    "unnamed": 2
+  {
+   "project": "Gloam",
+   "repository": "gloamtrade/gloam"
   },
-  "publishedReadFrom": [
-    {
-      "project": "Priors",
-      "repository": "priors-agents/priors"
-    },
-    {
-      "project": "Gloam",
-      "repository": "gloamtrade/gloam"
-    },
-    {
-      "project": "x402fi",
-      "repository": "RWA-ID/x402fi"
-    },
-    {
-      "project": "Agent402",
-      "repository": "MikeyPetrillo/Agent402"
-    },
-    {
-      "project": "Hookr",
-      "repository": "Hookr-fun/hookr-contracts"
-    },
-    {
-      "project": "NOUNY",
-      "repository": "nounyagent/nouny-agent"
-    },
-    {
-      "project": "Purser",
-      "repository": "PurserAgents/purser"
-    },
-    {
-      "project": "Sourcify",
-      "repository": "argotorg/sourcify"
-    }
-  ]
+  {
+   "project": "x402fi",
+   "repository": "RWA-ID/x402fi"
+  },
+  {
+   "project": "Agent402",
+   "repository": "MikeyPetrillo/Agent402"
+  },
+  {
+   "project": "Hookr",
+   "repository": "Hookr-fun/hookr-contracts"
+  },
+  {
+   "project": "NOUNY",
+   "repository": "nounyagent/nouny-agent"
+  },
+  {
+   "project": "Purser",
+   "repository": "PurserAgents/purser"
+  },
+  {
+   "project": "Sourcify",
+   "repository": "argotorg/sourcify"
+  },
+  {
+   "project": "Ethernal",
+   "repository": "tryethernal/ethernal"
+  }
+ ]
 }
