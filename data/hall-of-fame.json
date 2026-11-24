@@ -20,10 +20,10 @@
     {
       "team": "Priors",
       "product": null,
-      "reported": "Eight reports: StockVault, borrowing, the score, AgentKit, elizaOS and the Rialto stock route",
+      "reported": "Eight published: StockVault, its price tape, borrowing, the score, elizaOS, the Rialto route and the line board",
       "severity": "Low to Medium",
-      "timeToFix": "Published 0 to 3 days after the report",
-      "when": "20 Oct to 4 Nov 2026"
+      "timeToFix": "Published 0 to 10 days after the report",
+      "when": "20 Oct–13 Nov, published by 23 Nov"
     },
     {
       "team": "QHooks",
