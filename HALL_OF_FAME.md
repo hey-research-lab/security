@@ -35,7 +35,7 @@ handled a report well. It is not an audit and not a statement that the code is s
 
 <!-- NUMBERS:START -->
 - 134 private security advisories filed on GitHub, across 62 projects. 44 accepted or published by their teams.
-- 279 pull requests to 221 other teams' repositories, 53 merged.
+- 278 pull requests to 220 other teams' repositories, 52 merged.
 - 17 teams in the hall of fame.
 
 Advisories counted by hand, last on 25 November 2026. Pull requests read from GitHub search every day.
