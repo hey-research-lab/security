@@ -108,10 +108,10 @@
   {
    "team": "Agent402",
    "product": null,
-   "reported": "Two payment checks: x402 caps against the signed amount, and a Stellar fallback that took any transfer",
-   "severity": "High",
-   "timeToFix": "Same day",
-   "when": "6 Nov 2026"
+   "reported": "Three published: x402 spend caps, a Stellar settle fallback, and paid answers re-sent from public calldata",
+   "severity": "Medium to High",
+   "timeToFix": "Same day; the third within a day",
+   "when": "6 Nov 2026; 24 Nov, published 25 Nov"
   },
   {
    "team": "1Shot",

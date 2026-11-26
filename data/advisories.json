@@ -1,12 +1,12 @@
 {
  "about": "Private security advisories HEY Research Lab filed on GitHub. Counts per project and state only: no finding, file or severity of an unpublished advisory is ever kept here, and a project is named only when it is already public in HALL_OF_FAME.md. Kept by hand. publishedReadFrom lists the public repositories whose published advisories crediting hey-research-lab are read live from GitHub's API (github.com/hey-research-lab's profile draws them).",
- "asOf": "2026-11-25",
+ "asOf": "2026-11-26",
  "filed": {
-  "advisories": 134,
-  "projects": 62
+  "advisories": 142,
+  "projects": 69
  },
  "acceptedOrPublished": {
-  "total": 44,
+  "total": 45,
   "named": [
    {
     "project": "Priors",
@@ -37,11 +37,11 @@
     "count": 3
    },
    {
-    "project": "Ethernal",
-    "count": 2
+    "project": "Agent402",
+    "count": 3
    },
    {
-    "project": "Agent402",
+    "project": "Ethernal",
     "count": 2
    },
    {
