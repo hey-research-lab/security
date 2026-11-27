@@ -1,12 +1,12 @@
 {
  "about": "Private security advisories HEY Research Lab filed on GitHub. Counts per project and state only: no finding, file or severity of an unpublished advisory is ever kept here, and a project is named only when it is already public in HALL_OF_FAME.md. Kept by hand. publishedReadFrom lists the public repositories whose published advisories crediting hey-research-lab are read live from GitHub's API (github.com/hey-research-lab's profile draws them).",
- "asOf": "2026-11-26",
+ "asOf": "2026-11-27",
  "filed": {
-  "advisories": 145,
-  "projects": 72
+  "advisories": 148,
+  "projects": 74
  },
  "acceptedOrPublished": {
-  "total": 45,
+  "total": 49,
   "named": [
    {
     "project": "Priors",
@@ -47,6 +47,18 @@
    {
     "project": "Stoa",
     "count": 2
+   },
+   {
+    "project": "Rheilon",
+    "count": 2
+   },
+   {
+    "project": "Fillmark",
+    "count": 1
+   },
+   {
+    "project": "Cirrava",
+    "count": 1
    }
   ],
   "unnamed": 2
@@ -87,6 +99,18 @@
   {
    "project": "Ethernal",
    "repository": "tryethernal/ethernal"
+  },
+  {
+   "project": "Fillmark",
+   "repository": "fillmarkagents/fillmark"
+  },
+  {
+   "project": "Rheilon",
+   "repository": "rheilonfinance/rheilon-contracts"
+  },
+  {
+   "project": "Cirrava",
+   "repository": "cirrava/cirrava-xyz"
   }
  ]
 }

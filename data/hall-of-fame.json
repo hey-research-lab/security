@@ -136,6 +136,30 @@
    "severity": "Medium to High",
    "timeToFix": "Same day",
    "when": "15 Nov 2026"
+  },
+  {
+   "team": "Fillmark",
+   "product": null,
+   "reported": "The agent could pick the NAV for units leaving a client account, so it could take a fee on a gain never made",
+   "severity": "Low",
+   "timeToFix": "Within the hour, mitigated in the agent and CLI",
+   "when": "26 Nov 2026, published 27 Nov"
+  },
+  {
+   "team": "Rheilon",
+   "product": null,
+   "reported": "Two Mediums in RheilonAccount: a newcomer traded with no cool-off, and a cool-off that never started over",
+   "severity": "Medium",
+   "timeToFix": "Within a day, fixed and deployed in v2",
+   "when": "26 Nov 2026, published 27 Nov"
+  },
+  {
+   "team": "Cirrava",
+   "product": null,
+   "reported": "StockOracle never read the Stock Token oraclePaused() flag, so a price during a corporate action read as Fresh",
+   "severity": "Low",
+   "timeToFix": "Within the hour, fixed in v2",
+   "when": "27 Nov 2026, published that day"
   }
  ]
 }

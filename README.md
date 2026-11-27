@@ -26,6 +26,7 @@
   <a href="#what-we-never-do">What we never do</a> ·
   <a href="#what-we-ask">What we ask</a> ·
   <a href="#hall-of-fame">Hall of fame</a> ·
+  <a href="#published-reviews">Published reviews</a> ·
   <a href="#contact">Contact</a>
 </p>
 
@@ -100,11 +101,17 @@ If we see a problem being exploited in the wild, we may shorten these steps to w
 <a href="HALL_OF_FAME.md">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-    <img alt="Hall of fame, largest projects first: Sourcify, Ethernal, Hookr, Priors, QHooks, Gloam, LoomDesk, predict FWA, AgentCity, Stoa, NOUNY, Agraris, Purser, Agent402, 1Shot, Autonomo and x402fi, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
+    <img alt="Hall of fame, largest projects first: Sourcify, Ethernal, Hookr, Priors, QHooks, Gloam, LoomDesk, predict FWA, AgentCity, Stoa, NOUNY, Agraris, Purser, Agent402, 1Shot, Autonomo, x402fi, Fillmark, Rheilon and Cirrava, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
   </picture>
 </a>
 
 Every credit with its link, and the numbers so far: [HALL_OF_FAME.md](HALL_OF_FAME.md).
+
+## Published reviews
+
+Reviews we have written up in full, published once the fixes shipped:
+
+- [JazzCat #1 · chain reads](reviews/2026-11-27-jazzcat-1-chain-reads.md) (x402fi listing, 27 Nov 2026): 1 Medium and 4 Low, all fixed and re-tested at `007d04b`.
 
 ## Contact
 

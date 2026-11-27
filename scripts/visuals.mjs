@@ -81,7 +81,7 @@ ${rows}
 
 /** Five tiles: advisories filed, accepted or published, pull requests sent, merged, teams in the hall of fame. */
 // A tile's sub-line wraps at its " · " joins, so a long list of names never runs past the card (about 26 mono characters).
-const subLines = (text, max = 26) => {
+const subLines = (text, max = 26, maxLines = 5) => {
   const lines = [];
   for (const part of String(text).split(' · ')) {
     const last = lines.length - 1;
@@ -89,13 +89,21 @@ const subLines = (text, max = 26) => {
     else lines.push(part);
   }
   // Five lines at most: a fifth is drawn tighter, so the unnamed count ("4 more") is never cut off.
-  return lines.slice(0, 5);
+  return lines.slice(0, maxLines);
 };
 export function numbers({ advisories, pulls, hallCount }, theme) {
   const t = THEMES[theme];
   const a = advisories;
-  const named = a.acceptedOrPublished.named.map((p) => `${p.project} ${p.count}`);
-  if (a.acceptedOrPublished.unnamed) named.push(`${a.acceptedOrPublished.unnamed} more`);
+  // The names that fit the tile's five lines; the rest are folded into the "N more" count, so no count is cut off.
+  const namedList = (k) => {
+    const list = a.acceptedOrPublished.named.slice(0, k).map((p) => `${p.project} ${p.count}`);
+    const more = a.acceptedOrPublished.unnamed + a.acceptedOrPublished.named.slice(k).reduce((sum, p) => sum + p.count, 0);
+    if (more) list.push(`${more} more`);
+    return list;
+  };
+  let shown = a.acceptedOrPublished.named.length;
+  while (shown > 0 && subLines(namedList(shown).join(' · '), 26, Infinity).length > 5) shown--;
+  const named = namedList(shown);
   const tiles = [
     { value: a.filed.advisories, label: `private security advisories filed on GitHub, across ${n(a.filed.projects)} projects` },
     { value: a.acceptedOrPublished.total, label: 'accepted or published by their teams', bar: [a.acceptedOrPublished.total, a.filed.advisories], sub: named.join(' · '), lit: true },

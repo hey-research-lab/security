@@ -5,7 +5,7 @@ handled a report well. It is not an audit and not a statement that the code is s
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hall-dark.svg">
-  <img alt="Hall of fame, largest projects first: Sourcify, Ethernal, Hookr, Priors, QHooks, Gloam, LoomDesk, predict FWA, AgentCity, Stoa, NOUNY, Agraris, Purser, Agent402, 1Shot, Autonomo and x402fi, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
+  <img alt="Hall of fame, largest projects first: Sourcify, Ethernal, Hookr, Priors, QHooks, Gloam, LoomDesk, predict FWA, AgentCity, Stoa, NOUNY, Agraris, Purser, Agent402, 1Shot, Autonomo, x402fi, Fillmark, Rheilon and Cirrava, with what we reported and how fast each fixed it" src="assets/hall-light.svg" width="100%">
 </picture>
 
 ## The credits, with links
@@ -29,16 +29,19 @@ handled a report well. It is not an audit and not a statement that the code is s
 | **1Shot** (embedded wallet) | Hardening across the open-source embedded wallet: risk warnings an embedding site could replace, one site's extension session usable by another, and requester origins that could be wrong or chosen by an attacker (Low to Medium) | Within days (2 to 12 Nov 2026), across several releases | [post on X](https://x.com/1shotapi/status/2121327154864738646) |
 | **Autonomo** (autonomo-sdk) | When an agent's wallet was short, the SDK's Borro borrow path signed and sent every transaction in the answer it got back, outside the agent's spending caps (Medium) | Same day (14 Nov 2026), fixed in both SDKs (npm autonomo-sdk 0.1.3, PyPI autonomo 0.1.1) and re-tested by us | [post on X](https://x.com/useautonomo/status/2121624143187812566) |
 | **x402fi** | Three payment issues in the gateway and the public facilitator: an encoded `../` priced as one endpoint and forwarded to another (High), `/settle` paying gas for transfers that pay nobody (Medium), and paid calls forwarded when the payment cannot settle (Medium) | Same day (15 Nov 2026), advisories published by the team | [GHSA-2695](https://github.com/RWA-ID/x402fi/security/advisories/GHSA-2695-fqv4-x6wm) · [GHSA-4mf4](https://github.com/RWA-ID/x402fi/security/advisories/GHSA-4mf4-56v3-jvm7) · [GHSA-9g6h](https://github.com/RWA-ID/x402fi/security/advisories/GHSA-9g6h-3x75-ghv9) |
+| **Fillmark** | In router v3 the agent could choose the NAV at which units leaving a client account are booked, so it could charge a performance fee on a gain the client never had (Low). About $200 sat in the one live client account, the team's own | Within the hour (reported 26 Nov 2026): the reference agent and CLI book units the moment they leave (agent 0.6.1, then 0.6.2 on 27 Nov), since router v3 has no upgrade path; advisory published by the team on 27 Nov | [GHSA-667m](https://github.com/fillmarkagents/fillmark/security/advisories/GHSA-667m-mv54-j6fp) · [fix commit aac7acc](https://github.com/fillmarkagents/fillmark/commit/aac7acc) · [fix commit 58020ee](https://github.com/fillmarkagents/fillmark/commit/58020ee) |
+| **Rheilon** | Two advisories in RheilonAccount, from a review Rheilon asked for, published by the team: in an open crew a newcomer's money could be traded in the same second it arrived, with no cool-off, by whoever held the voting shares (Medium); and the cool-off started once and never started over when share weight left, so a proposal made ready inside one transaction ran 12 hours later with no exit window (Medium). About $10 was in the one live crew, the team's own | Within a day (reported 26 Nov 2026): fixed and deployed in v2 on 27 Nov; both advisories published by the team the same day | [GHSA-fq8r](https://github.com/rheilonfinance/rheilon-contracts/security/advisories/GHSA-fq8r-2cgq-j3gg) · [GHSA-3chj](https://github.com/rheilonfinance/rheilon-contracts/security/advisories/GHSA-3chj-vh32-38qv) · [fix commit 921cb5a](https://github.com/rheilonfinance/rheilon-contracts/commit/921cb5a) |
+| **Cirrava** | From a review Cirrava asked for: StockOracle never read the Stock Token's `oraclePaused()` flag, so an answer published while Robinhood processes a corporate action was used as Fresh for borrowing and liquidation (Low). The vault and every market were empty | Within the hour (27 Nov 2026), fixed in v2; advisory published by the team the same day | [GHSA-7hw7](https://github.com/cirrava/cirrava-xyz/security/advisories/GHSA-7hw7-pqjf-gcxx) · [fix commit 476434a](https://github.com/cirrava/cirrava-xyz/commit/476434a) |
 
 
 ## The numbers so far
 
 <!-- NUMBERS:START -->
-- 145 private security advisories filed on GitHub, across 72 projects. 45 accepted or published by their teams.
+- 148 private security advisories filed on GitHub, across 74 projects. 49 accepted or published by their teams.
 - 278 pull requests to 220 other teams' repositories, 54 merged.
-- 17 teams in the hall of fame.
+- 20 teams in the hall of fame.
 
-Advisories counted by hand, last on 26 November 2026. Pull requests read from GitHub search every day.
+Advisories counted by hand, last on 27 November 2026. Pull requests read from GitHub search every day.
 <!-- NUMBERS:END -->
 
 Your team can be next: see the [disclosure policy](README.md).
