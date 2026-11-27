@@ -74,8 +74,8 @@ To ask, write to hi@heyresearch.xyz with a subject starting "Security", or messa
 | Day | What happens |
 |---|---|
 | **0** | We send the report privately, or the contact request when there is no private channel. |
-| **14** | If nobody has acknowledged it, we say publicly that we sent a report to the project and are waiting to hear back. No details, no severity, no file names. |
-| **90** | The fix window ends. If the team is working on it, we extend it: just tell us. |
+| **14** | If nobody has acknowledged it, we follow up privately: once on the report itself, and once through a second channel the team uses (an e-mail, a direct message, or a detail-free contact request issue). We do not name the project publicly while the problem is unfixed. |
+| **90** | The fix window ends, whether or not the team has replied. If the team is working on a fix, we extend it: just tell us. Silence does not extend it. |
 | **After the fix, or at 90 days** | We publish a short summary and credit the team that fixed it. If it is still unfixed at 90 days, we tell users how to protect themselves and still leave out anything that would help someone exploit it. |
 
 If we see a problem being exploited in the wild, we may shorten these steps to warn users sooner.
